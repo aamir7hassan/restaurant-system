@@ -1,0 +1,13 @@
+{
+    "name": "root/nuro",
+    "authors": [
+        {
+            "name": "anoop loy",
+            "email": "anoop904@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.6"
+    }
+}
+ 

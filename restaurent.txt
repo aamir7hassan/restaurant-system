@@ -1,0 +1,9 @@
+[database]
+hostname = "localhost"
+username = "root"
+database = "restaurent"
+password = ""
+[site]
+title = "Title Text"
+email = "mijoepm@gmail.com"
+logo = "logo"

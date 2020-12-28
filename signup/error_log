@@ -1,0 +1,77 @@
+[11-Oct-2016 04:37:33 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/nuroworks/public_html/takki/replicate/actions.php on line 20
+[11-Oct-2016 05:26:37 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `t20rest_attributes` (`id` int(11) NOT NULL AUTO_INCR' at line 1 query: CREATE TABLE IF NOT EXISTS `t20rest_app_sessions` (`session_id` varchar(40) NOT NULL DEFAULT '0',`ip_address` varchar(45) NOT NULL DEFAULT '0',`user_agent` varchar(120) NOT NULL,`last_activity` int(10) unsigned NOT NULL DEFAULT '0',`user_data` text NOT NULL,PRIMARY KEY (`session_id`),KEY `last_activity_idx` (`last_activity`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;CREATE TABLE IF NOT EXISTS `t20rest_attributes` (`id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'unique identifier',`index` varchar(50) NOT NULL COMMENT 'Index to check attribute names',`type` varchar(10) NOT NULL,`name` varchar(150) NOT NULL COMMENT 'product attribute display text',`values` text NOT NULL,`date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'created date',PR in /home/nuroworks/public_html/takki/replicate/database/MysqliDb.php on line 1819
+[11-Oct-2016 05:30:14 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE IF NOT EXISTS `t20rest_attributes` (`id` int(11) NOT NULL AUTO_INCR' at line 1 query: CREATE TABLE IF NOT EXISTS `t20rest_app_sessions` (`session_id` varchar(40) NOT NULL DEFAULT '0',`ip_address` varchar(45) NOT NULL DEFAULT '0',`user_agent` varchar(120) NOT NULL,`last_activity` int(10) unsigned NOT NULL DEFAULT '0',`user_data` text NOT NULL,PRIMARY KEY (`session_id`),KEY `last_activity_idx` (`last_activity`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;CREATE TABLE IF NOT EXISTS `t20rest_attributes` (`id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'unique identifier',`index` varchar(50) NOT NULL COMMENT 'Index to check attribute names',`type` varchar(10) NOT NULL,`name` varchar(150) NOT NULL COMMENT 'product attribute display text',`values` text NOT NULL,`date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'created date',PR in /home/nuroworks/public_html/takki/replicate/database/MysqliDb.php on line 1819
+[11-Oct-2016 05:46:48 America/New_York] PHP Notice:  Undefined variable: result in /home/nuroworks/public_html/takki/replicate/actions.php on line 160
+[11-Oct-2016 05:53:28 America/New_York] PHP Notice:  Undefined variable: result in /home/nuroworks/public_html/takki/replicate/actions.php on line 160
+[11-Oct-2016 05:54:26 America/New_York] PHP Notice:  Undefined variable: result in /home/nuroworks/public_html/takki/replicate/actions.php on line 162
+[12-Nov-2016 12:22:10 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/nuroworks/public_html/takki/signup/actions.php on line 223
+[24-Nov-2016 12:29:38 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/nuroworks/public_html/takki/signup/actions.php on line 223
+[24-Nov-2016 12:33:04 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/nuroworks/public_html/takki/signup/actions.php on line 223
+[25-Nov-2016 12:01:23 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/nuroworks/public_html/takki/signup/actions.php on line 223
+[26-Nov-2016 04:32:00 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/nuroworks/public_html/takki/signup/actions.php on line 223
+[12-Dec-2016 06:02:04 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's', '082 855 9465', 'Centurion')' at line 1 query: INSERT INTO `rhapsodys_users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`, `activation_code`, `forgotten_password_code`, `forgotten_password_time`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`, `site`) VALUES(1, '' in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php:1819
+Stack trace:
+#0 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(484): MysqliDb->rawQuery('INSERT INTO `rh...', NULL)
+#2 /home/nuroworks/public_html/takki/signup/actions.php(132): MysqliDb->rawQueryValue('INSERT INTO `rh...')
+#3 /home/nuroworks/public_html/takki/signup/index.php(1): require_once('/home/nuroworks...')
+#4  in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php on line 1819
+[12-Dec-2016 06:08:31 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's', '0117390000', 'Nigel')' at line 1 query: INSERT INTO `pichanas_users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`, `activation_code`, `forgotten_password_code`, `forgotten_password_time`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`, `site`) VALUES(1, '' in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php:1819
+Stack trace:
+#0 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(484): MysqliDb->rawQuery('INSERT INTO `pi...', NULL)
+#2 /home/nuroworks/public_html/takki/signup/actions.php(132): MysqliDb->rawQueryValue('INSERT INTO `pi...')
+#3 /home/nuroworks/public_html/takki/signup/index.php(1): require_once('/home/nuroworks...')
+#4 {main}
+ in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php on line 1819
+[12-Dec-2016 08:36:55 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's', '0117390000', 'Nigel')' at line 1 query: INSERT INTO `pichanas_users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`, `activation_code`, `forgotten_password_code`, `forgotten_password_time`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`, `site`) VALUES(1, '' in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php:1819
+Stack trace:
+#0 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(484): MysqliDb->rawQuery('INSERT INTO `pi...', NULL)
+#2 /home/nuroworks/public_html/takki/signup/actions.php(132): MysqliDb->rawQueryValue('INSERT INTO `pi...')
+#3 /home/nuroworks/public_html/takki/signup/index.php(1): require_once('/home/nuroworks...')
+#4 {main}
+ in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php on line 1819
+[12-Dec-2016 08:42:50 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's', '0117390000', 'Nigel')' at line 1 query: INSERT INTO `pichanas_users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`, `activation_code`, `forgotten_password_code`, `forgotten_password_time`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`, `site`) VALUES(1, '' in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php:1819
+Stack trace:
+#0 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(484): MysqliDb->rawQuery('INSERT INTO `pi...', NULL)
+#2 /home/nuroworks/public_html/takki/signup/actions.php(132): MysqliDb->rawQueryValue('INSERT INTO `pi...')
+#3 /home/nuroworks/public_html/takki/signup/index.php(1): require_once('/home/nuroworks...')
+#4 {main}
+ in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php on line 1819
+[12-Dec-2016 08:44:00 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's', '0117390000', 'Nigel')' at line 1 query: INSERT INTO `pichanas_users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`, `activation_code`, `forgotten_password_code`, `forgotten_password_time`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`, `site`) VALUES(1, '' in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php:1819
+Stack trace:
+#0 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(430): MysqliDb->_prepareQuery()
+#1 /home/nuroworks/public_html/takki/signup/database/MysqliDb.php(484): MysqliDb->rawQuery('INSERT INTO `pi...', NULL)
+#2 /home/nuroworks/public_html/takki/signup/actions.php(134): MysqliDb->rawQueryValue('INSERT INTO `pi...')
+#3 /home/nuroworks/public_html/takki/signup/index.php(1): require_once('/home/nuroworks...')
+#4 {main}
+ in /home/nuroworks/public_html/takki/signup/database/MysqliDb.php on line 1819
+[15-Apr-2020 07:41:44 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'packages' in 'field list' query: INSERT  INTO accounts (`name`, `surname`, `restaurant_name`, `email`, `phone`, `city`, `packages`, `sku`, `password`, `comments`, `status`, `unique`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)' in /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php:1996
+Stack trace:
+#0 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#1 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(1523): MysqliDb->_buildQuery(NULL, Array)
+#2 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(816): MysqliDb->_buildInsert('accounts', Array, 'INSERT')
+#3 /home/sevekzpz/public_html/restaurant/signup/actions.php(89): MysqliDb->insert('accounts', Array)
+#4 /home/sevekzpz/public_html/restaurant/signup/index.php(5): require_once('/home/sevekzpz/...')
+#5 {main}
+  thrown in /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php on line 1996
+[15-Apr-2020 07:52:13 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'status' in 'field list' query: INSERT  INTO accounts (`name`, `surname`, `restaurant_name`, `email`, `phone`, `city`, `packages`, `sku`, `password`, `comments`, `status`, `unique`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)' in /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php:1996
+Stack trace:
+#0 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#1 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(1523): MysqliDb->_buildQuery(NULL, Array)
+#2 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(816): MysqliDb->_buildInsert('accounts', Array, 'INSERT')
+#3 /home/sevekzpz/public_html/restaurant/signup/actions.php(89): MysqliDb->insert('accounts', Array)
+#4 /home/sevekzpz/public_html/restaurant/signup/index.php(5): require_once('/home/sevekzpz/...')
+#5 {main}
+  thrown in /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php on line 1996
+[15-Apr-2020 07:52:50 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'unique' in 'field list' query: INSERT  INTO accounts (`name`, `surname`, `restaurant_name`, `email`, `phone`, `city`, `packages`, `sku`, `password`, `comments`, `status`, `unique`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)' in /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php:1996
+Stack trace:
+#0 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(1584): MysqliDb->_prepareQuery()
+#1 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(1523): MysqliDb->_buildQuery(NULL, Array)
+#2 /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php(816): MysqliDb->_buildInsert('accounts', Array, 'INSERT')
+#3 /home/sevekzpz/public_html/restaurant/signup/actions.php(89): MysqliDb->insert('accounts', Array)
+#4 /home/sevekzpz/public_html/restaurant/signup/index.php(5): require_once('/home/sevekzpz/...')
+#5 {main}
+  thrown in /home/sevekzpz/public_html/restaurant/signup/database/MysqliDb.php on line 1996

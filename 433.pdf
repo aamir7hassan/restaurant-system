@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Print Slip</title>
+    <style>
+        @media print {
+            @page {
+                margin: 0 auto; /* important to logo margin */
+                sheet-size: 400px 250mm; /* important to set paper size */
+            }
+
+            html {
+                direction: rtl;
+            }
+
+            html,body{
+                margin:0;padding:0
+            }
+
+            #printContainer {
+                width: 350px;
+                margin: 20px auto;
+                /*padding: 10px;*/
+                /*border: 2px dotted #000;*/
+                text-align: justify;
+            }
+
+           .text-center{
+               text-align: center;
+            }
+
+            #tax{
+                font-weight: 12px;
+                font-size: 20px;
+                padding-top: 20px;
+            }
+
+            .company{
+                font-weight: 12px;
+                font-size: 20px;
+                padding-top: -20px;
+            }
+
+            .address{
+                font-weight: 12px;
+                font-size: 12px;
+                padding-top: -15px;
+            }
+
+            .pl-30{
+                padding-left: 30px;
+            }
+        }
+    </style>
+</head>
+<body onload="window.print();">
+    <div id='printContainer'>
+		
+        <p id="tax" class="text-center">Tax Invoice </p>
+        <p class="text-center company">Airport Craft Brewers</p>
+        <p class="text-center address">O.R. Tambo International Airport, 1 Jones Road, Kempton Park, Johannesburg, 1632, South Africa</p>
+        <p class="text-center address">
+            TEL. 0113903394        </p>
+        <p class="text-center address">
+            VAT NO. 15        </p>
+        <p class="text-center address">
+            INVOICE NO. 000        </p>
+		<p class="text-center address">Waiter : Hendriena</p>
+                <table style="width: 100%">
+            <tr><td colspan="2"></td></tr>
+                        
+            <tr><td colspan="2"></td></tr>
+
+            <tr>
+                <td><span style="font-size: 13px; padding-top: 20px"></span></td>
+                <td><span style="font-size: 13px; padding-top: 20px">TIP</span></td>
+                <td><span style="font-size: 13px; padding-top: 20px">R 0.00</span></td>
+            </tr>
+
+            <tr><td colspan="2"></td></tr>
+			
+
+            <tr>
+                <td><span style="font-size: 13px;"></span></td>
+                <td><span style="font-size: 13px;">VAT-VAL</span></td>
+                <td><span style="font-size: 13px;">NET-VAL</span></td>
+            </tr>
+            
+            <tr><td colspan="2"></td></tr>
+			            <tr>
+                <td><span style="font-size: 13px;">VAT 15%</td>
+                <td><span style="font-size: 13px;">R 0</span></td>
+                <td><span style="font-size: 13px;">R 0.00</span></td>
+            </tr> 
+			<tr><td colspan="2"></td></tr>
+            <tr>
+                <td><span style="font-size: 13px; padding-top: 20px">ITEMS 0</span></td>
+                <td><span style="font-size: 13px; padding-top: 20px">TOTAL</span></td>
+                                                        <td><span style="font-size: 13px; padding-top: 20px">R 0.00</span></td> 
+                            </tr> 
+            
+            <tr><td colspan="2"></td></tr> 
+ 
+            <tr>
+                                <td></td>
+                <td><span style="font-size: 13px;">R 0.00</span></td>
+            </tr>
+            
+            <tr><td colspan="2"></td></tr>
+
+            <tr>
+                <td><span style="font-size: 13px;">CHANGE</span></td>
+                <td></td>
+                <td><span style="font-size: 13px;">R 0.00</span></td>
+            </tr>
+
+           
+
+            <tr><td colspan="4"></td></tr>
+
+            <!--<tr>
+                <td></td>
+                <td><span style="font-size: 13px;">21:57:52</span></td>
+                <td><span style="font-size: 13px;">18/04/2020</span></td>
+            </tr>-->
+        </table>
+        
+        <div class="text-center" style="font-size: 16px;padding-top: 20px;">
+			THANK YOU FOR EATING AT            <p>** Airport Craft Brewers **</p>
+<p>*** Enjoy your day! ***</p>        </div>
+        <hr>
+		 <div class="text-center" style="font-size: 14px;">
+		<center><small class="text-center">2020-04-18 22:25:PM</small></center>
+		</div>
+    </div>
+</body>
+</html>

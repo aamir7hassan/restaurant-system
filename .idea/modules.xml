@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:/xampp/htdocs/posecom/.idea/posecom.iml" filepath="C:/xampp/htdocs/posecom/.idea/posecom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/takki.iml" filepath="$PROJECT_DIR$/.idea/takki.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,74 @@
+[24-Mar-2016 13:56:03 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[24-Mar-2016 13:56:03 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[25-Mar-2016 03:40:05 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[25-Mar-2016 03:40:05 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[31-Mar-2016 22:52:59 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[31-Mar-2016 22:52:59 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[01-Apr-2016 09:10:02 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[01-Apr-2016 09:10:02 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[02-Apr-2016 03:49:08 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[02-Apr-2016 03:49:08 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[05-Apr-2016 20:13:36 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[05-Apr-2016 20:13:36 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[10-Apr-2016 21:37:13 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[10-Apr-2016 21:37:13 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[10-Apr-2016 21:40:18 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[10-Apr-2016 21:40:18 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[18-Apr-2016 16:22:09 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[18-Apr-2016 16:22:09 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[22-Apr-2016 19:24:18 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[22-Apr-2016 19:24:18 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[06-May-2016 18:12:15 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[06-May-2016 18:12:15 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[06-May-2016 18:15:03 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[06-May-2016 18:15:03 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[10-May-2016 04:21:11 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[10-May-2016 04:21:11 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[10-May-2016 04:26:05 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[10-May-2016 04:26:05 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-May-2016 21:14:47 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-May-2016 21:14:47 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-May-2016 21:17:42 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-May-2016 21:17:42 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[19-May-2016 13:52:07 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[19-May-2016 13:52:07 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[19-May-2016 13:55:04 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[19-May-2016 13:55:04 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[03-Jun-2016 18:13:59 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[03-Jun-2016 18:13:59 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[09-Jun-2016 05:23:27 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[09-Jun-2016 05:23:27 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[09-Jun-2016 05:38:57 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[09-Jun-2016 05:38:57 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-Jun-2016 18:35:12 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-Jun-2016 18:35:12 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-Jun-2016 18:35:17 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-Jun-2016 18:35:17 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-Jun-2016 18:36:12 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-Jun-2016 18:36:12 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-Jun-2016 18:40:41 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-Jun-2016 18:40:41 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-Jun-2016 18:40:52 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-Jun-2016 18:40:52 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-Jun-2016 18:41:19 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-Jun-2016 18:41:19 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-Jun-2016 18:41:27 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-Jun-2016 18:41:27 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[15-Jun-2016 18:42:26 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[15-Jun-2016 18:42:26 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[22-Jun-2016 10:03:24 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[22-Jun-2016 10:03:24 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[22-Jun-2016 12:51:09 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[22-Jun-2016 12:51:09 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[22-Jun-2016 12:57:35 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[22-Jun-2016 12:57:35 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[10-Jul-2016 02:50:45 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[10-Jul-2016 02:50:45 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[10-Jul-2016 13:13:35 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[10-Jul-2016 13:13:35 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[10-Jul-2016 13:19:27 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[10-Jul-2016 13:19:27 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[14-Jul-2016 09:08:37 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[14-Jul-2016 09:08:37 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
+[18-Jul-2016 14:03:10 America/New_York] PHP Notice:  Undefined variable: template in /home/mytakki/public_html/demo/assets/css/admin.php on line 8
+[18-Jul-2016 14:03:10 America/New_York] PHP Fatal error:  Call to undefined function base_url() in /home/mytakki/public_html/demo/assets/css/admin.php on line 9
